@@ -37,7 +37,6 @@ function AdminLoginPage() {
     <section className="centered-section">
       <form onSubmit={handleSubmit} className="form-card">
         <h2>Admin Login</h2>
-        <p className="hint">Demo: admin@foodly.com / admin123</p>
         <FormInput
           label="Email"
           name="email"
